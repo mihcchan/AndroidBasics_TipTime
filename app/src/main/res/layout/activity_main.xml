@@ -46,6 +46,7 @@
 
     <TextView
         android:id="@+id/service_question"
+        style="@style/Widget.TipTime.TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -63,18 +64,21 @@
         app:layout_constraintTop_toBottomOf="@id/service_question">
 
         <RadioButton
+            style="@style/Widget.TipTime.CompoundButton.RadioButton"
             android:id="@+id/option_20_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/amazing_20_string" />
 
         <RadioButton
+            style="@style/Widget.TipTime.CompoundButton.RadioButton"
             android:id="@+id/option_18_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/good_18_string" />
 
         <RadioButton
+            style="@style/Widget.TipTime.CompoundButton.RadioButton"
             android:id="@+id/option_15_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -94,6 +98,7 @@
 
     <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/round_up_tip_switch"
+        style="@style/Widget.TipTime.CompoundButton.Switch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -115,6 +120,7 @@
 
     <TextView
         android:id="@+id/tip_result"
+        style="@style/Widget.TipTime.TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
